@@ -20,7 +20,7 @@ try {
   fs.ensureDirSync(roomPath);
   fs.ensureDirSync(outputDir);
 } catch (err) {
-  console.error(`❌ Error ensuring directories exist for room ${roomId}:`, err.message);
+  console.error(`❌ Error directories exist for room ${roomId}:`, err.message);
   process.exit(1);
 }
 
